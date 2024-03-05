@@ -118,3 +118,34 @@ line_numbers: true
     <button onclick="displaySummary()">Create</button>
 
 --- /code ---
+
+
+
+
+
+
+
+**TODO** Check where this can go:
+
+--- collapse ---
+
+---
+title: Examples of input attributes
+---
+
++ placeholder: provides a short hint that describes the expected value of the input field and is replaced when the user enters a value.
+Example: `<input type="text" placeholder="Enter your name">`
+
++ value: sets the default data entered in the input field. For example in a form where the user is asked for their dietary requirements, you could set the default value of that field to "None".
+Example: `<input type="text" name="Dietary requirements" value="None">`
+
++ required: ensures that the input field must be filled out before submitting the form.
+Example: `<input type="text" required>`
+
++ maxlength: sets the maximum number of characters allowed in a text or password input.
+Example: `<input type="text" maxlength="30">`
+
++ min and max: sets the minimum and maximum values for number or date inputs.
+Example: `<input type="number" min="0" max="100">`
+
+--- /collapse ---
