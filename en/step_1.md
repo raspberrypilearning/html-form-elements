@@ -5,127 +5,56 @@ Form elements in HTML allow users to input data, interact with the page, and sub
 --- collapse ---
 
 ---
-title: What are the different types of form elements?
+title: Types of form elements
 ---
 
 Here are some useful form elements:
-+ `<form>`: The overall form container.
-+ `<label>`: Labels for the input fields.
-+ `<input>`: Text inputs, checkboxes, radio buttons, etc.
-+ `<button>`: Submit or reset buttons.
++ `<input>` e.g. single-line text box, checkbox, button.
++ `<select>` A drop-down list.
++ `<textarea>` For entering multiple lines of text.
++ `<label>` Text to tell the user what information to enter.
 
 --- /collapse ---
 
-The `<input>` element is the most commonly used form element because it allows users add data to a form.
+The `<input>` element can be displayed in many ways using the `type` attribute.
 
-This can be displayed in many ways using the `type` attribute.
+You set the type of input using `type=`.
 
 --- collapse ---
 
 ---
-title: What are the form inputs in HTML?
+title: Examples of input types
 ---
 
-+ Text (<input type="text">): allows users to enter a single line of text.
-+ Password (<input type="password">): allows text input but hides the entered text for sensitive information.
-+ Textarea (<textarea></textarea>): allows users to enter multiple lines of text.
-+ Checkbox (<input type="checkbox">): allows users to select one or more options.
-+ Radio Button (<input type="radio">): allows users to select a single option.
-+ Select Dropdown (<select><option value="1">1</option><option value="2">2</option></select>): creates a dropdown list for users to choose one option.
-+ Submit (<input type="submit">): a button that sends the data enetered byt the users on the form.
-+ Reset (<input type="reset">): a button that clears all the form fields to their default values.
++ **text:** Single line of text. 
+<br>`<input type="text">`
+<br>*Try it*:
+<br><input type="text">
+
++ **password:** Hides the entered text.
+<br>`<input type="password">`
+<br>*Try it*:
+<br><input type="password">
+
++ **checkbox:** Tick one or more options.
+<br>`<input type="checkbox">`
+<br>*Try it*:
+<br><input type="checkbox">
+
++ **radio:** Select one or more options. **TODO**
+<br>`<input type="radio">`
+<br>*Try it*:
+<br><input type="radio">
+
++ **number** Numeric data with arrows to increase/decrease the value 
+<br>`<input type="number">`
+<br>*Try it*:
+<br><input type="number">
 
 --- /collapse ---
 
-#### How to add a text input area
 
---- code ---
----
-language: html
-filename: comicbook.html
-line_numbers: true
----
-
-      <div id="name-input">
-        <label>Superhero Name:</label>
-        <input type="text" id="name-text">     
-      </div>
-    
---- /code ---
-
-#### How to add a text area
-
---- code ---
----
-language: html
-filename: comicbook.html
-line_numbers: true
----
-
-    <div id="appearance-input">
-      <label>Appearance: </label> 
-      <textarea id="appearance-text" placeholder="Type the appearance of your superhero here...."></textarea>
-    </div>
-    
---- /code ---
-
-#### How to add a drop down list
-
---- code ---
----
-language: html
-filename: comicbook.html
-line_numbers: true
----
-   
-      <div id="ability-input">
-        <label>Abilities:</label>
-        <select id="ability-choice">
-          <option value="">Choose an option</option>
-          <option value="Flying">Flying</option>
-          <option value="Invisibility">Invisibility</option>
-          <option value="Time travel">Time travel</option>
-        </select>
-      </div>
-    
---- /code ---
-
-#### How to add a checkbox
-
---- code ---
----
-language: html
-filename: comicbook.html
-line_numbers: true
----
-
-      <div id="check-input">
-        <label>Accept Terms:</label>
-        <input type="checkbox" id="accept-box">     
-      </div>
-    
---- /code ---
-
-#### How to add a button element
-
---- code ---
----
-language: html
-filename: comicbook.html
-line_numbers: true
----
-
-    <button onclick="displaySummary()">Create</button>
-
---- /code ---
-
-
-
-
-
-
-
-**TODO** Check where this can go:
+You can add attributes to an `<input>` element that helps the user and controls what can be entered.
 
 --- collapse ---
 
@@ -133,17 +62,20 @@ line_numbers: true
 title: Examples of input attributes
 ---
 
-+ placeholder: provides a short hint that describes the expected value of the input field and is replaced when the user enters a value.
++ placeholder: provides a hint of what the user should enter. It is replaced when the user enters a value.
 Example: `<input type="text" placeholder="Enter your name">`
+<br><input type="text" placeholder="Enter your name">
 
 + value: sets the default data entered in the input field. For example in a form where the user is asked for their dietary requirements, you could set the default value of that field to "None".
 Example: `<input type="text" name="Dietary requirements" value="None">`
+<br><input type="text" name="Dietary requirements" value="None">
 
-+ required: ensures that the input field must be filled out before submitting the form.
++ required: checks the input field must be filled out before submitting the form.
 Example: `<input type="text" required>`
 
 + maxlength: sets the maximum number of characters allowed in a text or password input.
-Example: `<input type="text" maxlength="30">`
+Example: `<input type="text" maxlength="3">`
+<br><input type="text" maxlength="3">
 
 + min and max: sets the minimum and maximum values for number or date inputs.
 Example: `<input type="number" min="0" max="100">`
