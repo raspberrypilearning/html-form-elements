@@ -1,5 +1,6 @@
 Form elements in HTML allow users to input data, interact with the page, and submit information. 
 
+**TODO** @m-bowley to update:
 ![An example HTML form with form fields annotated to show their use.](images/form-labelled.png)
 
 --- collapse ---
