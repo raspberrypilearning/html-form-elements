@@ -27,33 +27,39 @@ title: Examples of input types
 ---
 
 + **text:** Single line of text. 
-<br>`<input type="text">`
-<br>*Try it*:
+
+        <input type="text">
+*Try it*:
 <br><input type="text">
 
 + **password:** Hides the entered text.
-<br>`<input type="password">`
-<br>*Try it*:
+
+        <input type="password">
+*Try it*:
 <br><input type="password">
 
 + **checkbox:** Tick one or more options.
-<br>`<input type="checkbox"> <label>Breakfast</label>`
-<br>`<input type="checkbox"> <label>Lunch</label>`
-<br>*Try it*:
+
+        <input type="checkbox"> <label>Breakfast</label>
+        <input type="checkbox"> <label>Lunch</label>
+*Try it*:
 <br><input type="checkbox"><label>Breakfast</label>
 <br><input type="checkbox"><label>Lunch</label>
 
 + **radio:** Select one option from a group.
-<br>`<input type="radio" name="meal"> <label>Breakfast</label> `
-<br>`<input type="radio" name="meal"> <label>Lunch</label>`
-<br>*Try it*:
+  
+        <input type="radio" name="meal"> <label>Breakfast</label>
+        <input type="radio" name="meal"> <label>Lunch</label>
+
+*Try it*:
 <br><input type="radio" name="meal"><label>Breakfast</label>
 <br><input type="radio" name="meal"><label>Lunch</label>
 <br>**Tip:** The radio buttons must have the same `name` attribute so that selecting a radio button deselects any other selected radio button. 
 
-+ **number** Numeric data with arrows to increase/decrease the value 
-<br>`<input type="number">`
-<br>*Try it*:
+**number** Numeric data with arrows to increase/decrease the value 
+
+        <input type="number">
+*Try it*:
 <br><input type="number">
 
 --- /collapse ---
