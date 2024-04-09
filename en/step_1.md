@@ -29,12 +29,14 @@ title: Examples of input types
 + **text:** Single line of text. 
 
         <input type="text">
+
 *Try it*:
 <br><input type="text">
 
 + **password:** Hides the entered text.
 
         <input type="password">
+
 *Try it*:
 <br><input type="password">
 
@@ -42,6 +44,7 @@ title: Examples of input types
 
         <input type="checkbox"> <label>Breakfast</label>
         <input type="checkbox"> <label>Lunch</label>
+
 *Try it*:
 <br><input type="checkbox"><label>Breakfast</label>
 <br><input type="checkbox"><label>Lunch</label>
@@ -59,6 +62,7 @@ title: Examples of input types
 **number** Numeric data with arrows to increase/decrease the value 
 
         <input type="number">
+        
 *Try it*:
 <br><input type="number">
 
