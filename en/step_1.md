@@ -9,10 +9,10 @@ title: Types of form elements
 ---
 
 Here are some useful form elements:
-+ `<input>` e.g. single-line text box, checkbox, button.
-+ `<select>` A drop-down list.
-+ `<textarea>` For entering multiple lines of text.
-+ `<label>` Text to tell the user what information to enter.
++ `<input>` e.g. a single-line text box, checkbox, or button
++ `<select>` A drop-down list
++ `<textarea>` For entering multiple lines of text
++ `<label>` Text to tell the user what information to enter
 
 --- /collapse ---
 
@@ -30,14 +30,14 @@ title: Examples of input types
 
         <input type="text">
 
-*Try it*:
+**Try it**:
 <br><input type="text">
 
 + **password:** Hides the entered text.
 
         <input type="password">
 
-*Try it*:
+**Try it**:
 <br><input type="password">
 
 + **checkbox:** Tick one or more options.
@@ -45,7 +45,7 @@ title: Examples of input types
         <input type="checkbox"> <label>Breakfast</label>
         <input type="checkbox"> <label>Lunch</label>
 
-*Try it*:
+**Try it**:
 <br><input type="checkbox"><label>Breakfast</label>
 <br><input type="checkbox"><label>Lunch</label>
 
@@ -54,22 +54,22 @@ title: Examples of input types
         <input type="radio" name="meal"> <label>Breakfast</label>
         <input type="radio" name="meal"> <label>Lunch</label>
 
-*Try it*:
+**Try it**:
 <br><input type="radio" name="meal"><label>Breakfast</label>
 <br><input type="radio" name="meal"><label>Lunch</label>
 <br>**Tip:** The radio buttons must have the same `name` attribute so that selecting a radio button deselects any other selected radio button. 
 
-**number** Numeric data with arrows to increase/decrease the value 
++ **number** Numeric data with arrows to increase/decrease the value. 
 
         <input type="number">
         
-*Try it*:
+**Try it**:
 <br><input type="number">
 
 --- /collapse ---
 
 
-You can add attributes to an `<input>` element that helps the user and controls what can be entered.
+You can add attributes to an `<input>` element, which helps the user and controls what can be entered.
 
 --- collapse ---
 
@@ -77,22 +77,22 @@ You can add attributes to an `<input>` element that helps the user and controls 
 title: Examples of input attributes
 ---
 
-+ placeholder: provides a hint of what the user should enter. It is replaced when the user enters a value.
++ placeholder: Provides a hint of what the user should enter. It is replaced when the user enters a value.
 Example: `<input type="text" placeholder="Enter your name">`
 <br><input type="text" placeholder="Enter your name">
 
-+ value: sets the default data entered in the input field. For example in a form where the user is asked for their dietary requirements, you could set the default value of that field to "None".
++ value: Sets the default data entered in the input field. For example, in a form where the user is asked for their dietary requirements, you could set the default value of that field to "None".
 Example: `<input type="text" name="Dietary requirements" value="None">`
 <br><input type="text" name="Dietary requirements" value="None">
 
-+ required: checks the input field must be filled out before submitting the form.
++ required: Checks the input field is filled out before allowing the form to be submitted.
 Example: `<input type="text" required>`
 
-+ maxlength: sets the maximum number of characters allowed in a text or password input.
++ maxlength: Sets the maximum number of characters allowed in a text or password input.
 Example: `<input type="text" maxlength="3">`
 <br><input type="text" maxlength="3">
 
-+ min and max: sets the minimum and maximum values for number or date inputs.
++ min and max: Sets the minimum and maximum values for number or date inputs.
 Example: `<input type="number" min="0" max="100">`
 
 --- /collapse ---
