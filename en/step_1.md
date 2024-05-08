@@ -9,7 +9,7 @@ title: Types of form elements
 ---
 
 Here are some useful form elements:
-+ `<input>` e.g. a single-line text box, checkbox, or button
++ `<input>` A single-line text box, checkbox, or button, for example
 + `<select>` A drop-down list
 + `<textarea>` For entering multiple lines of text
 + `<label>` Text to tell the user what information to enter
@@ -69,7 +69,7 @@ title: Examples of input types
 --- /collapse ---
 
 
-You can add attributes to an `<input>` element, which helps the user and controls what can be entered.
+You can add attributes to an `<input>` element to help the user and control what can be entered.
 
 --- collapse ---
 
