@@ -1,98 +1,99 @@
-Form elements in HTML allow users to input data, interact with the page, and submit information.
+Met formulierelementen in HTML kunnen gebruikers gegevens invoeren, met de pagina communiceren en informatie verzenden.
 
-![An example HTML form with form fields annotated to show their use.](images/form-labelled.png)
+![Een voorbeeld HTML-formulier met formuliervelden die zijn voorzien van opmerkingen om hun gebruik weer te geven.](images/form-labelled.png)
 
 \--- collapse ---
 
 ---
 
-## title: Types of form elements
+## title: Typen formulierelementen
 
-Here are some useful form elements:
+Hier zijn enkele nuttige formulierelementen:
 
-- `<input>` A single-line text box, checkbox, or button, for example
-- `<select>` A drop-down list
-- `<textarea>` For entering multiple lines of text
-- `<label>` Text to tell the user what information to enter
+- `<input>` Een tekstvak met één regel, selectievakje of knop, bijvoorbeeld
+- `<select>` Een keuzelijst
+- `<textarea>` Voor het invoeren van meerdere tekstregels
+- `<label>` Tekst om de gebruiker te vertellen welke informatie hij moet invoeren
 
 \--- /collapse ---
 
-The `<input>` element can be displayed in many ways using the `type` attribute.
+Het element `<input>` kan op verschillende manieren worden weergegeven met behulp van het kenmerk `type`.
 
-You set the type of input using `type=`.
+Je stelt het type invoer in met `type=`.
 
 \--- collapse ---
 
 ---
 
-## title: Examples of input types
+## title: Voorbeelden van invoertypes
 
-- **text:** Single line of text.
+- **tekst:** Eén regel tekst.
 
   ```
     <input type="text">
   ```
 
-**Try it**: <br><input type="text">
+\*_Probeer het_: <br><input type="text">
 
-- **password:** Hides the entered text.
+- **wachtwoord:** Verbergt de ingevoerde tekst.
 
   ```
     <input type="password">
   ```
 
-**Try it**: <br><input type="password">
+\*_Probeer het_: <br><input type="password">
 
-- **checkbox:** Tick one or more options.
+- **selectievakje:** Selecteer een of meer opties.
 
   ```
-    <input type="checkbox"> <label>Breakfast</label>
+    <input type="checkbox"> <label>Ontbijt</label>
     <input type="checkbox"> <label>Lunch</label>
   ```
 
-**Try it**: <br><input type="checkbox"><label>Breakfast</label> <br><input type="checkbox"><label>Lunch</label>
+**Probeer het**: <br><input type="checkbox"><label>Ontbijt</label> <br><input type="checkbox"><label>Lunch</label>
 
-- **radio:** Select one option from a group.
+- **radio:** Selecteer één optie uit een groep.
 
   ```
-    <input type="radio" name="meal"> <label>Breakfast</label>
+    <input type="radio" name="meal"> <label>Ontbijt</label>
     <input type="radio" name="meal"> <label>Lunch</label>
   ```
 
-**Try it**: <br><input type="radio" name="meal"><label>Breakfast</label> <br><input type="radio" name="meal"><label>Lunch</label> <br>**Tip:** The radio buttons must have the same `name` attribute so that selecting a radio button deselects any other selected radio button.
+**Probeer het**: <br><input type="radio" name="meal"><label>Ontbijt</label> <br><input type="radio" name="meal"><label>Lunch</label> <br>**Tip:** De keuzerondjes moeten hetzelfde `name`-kenmerk hebben, zodat wanneer je een keuzerondje selecteert, alle andere geselecteerde keuzerondjes worden gedeselecteerd.
 
-- **number** Numeric data with arrows to increase/decrease the value.
+- **getal:** Numerieke data met pijlen om de waarde te verhogen/verlagen.
 
   ```
-    <input type="number">
+    
+  <input type="number">
     
   ```
 
-**Try it**: <br><input type="number">
+**Probeer het**: <br><input type="number">
 
 \--- /collapse ---
 
-You can add attributes to an `<input>` element to help the user and control what can be entered.
+Je kunt attributen toevoegen aan een `<input>` element om de gebruiker te helpen en te bepalen wat kan worden ingevoerd.
 
 \--- collapse ---
 
 ---
 
-## title: Examples of input attributes
+## title: Voorbeelden van invoerattributen
 
-- placeholder: Provides a hint of what the user should enter. It is replaced when the user enters a value.
-  Example: `<input type="text" placeholder="Enter your name">` <br><input type="text" placeholder="Enter your name">
+- placeholder: Geeft een hint van wat de gebruiker moet invoeren. Deze wordt vervangen wanneer de gebruiker een waarde invoert.
+  Voorbeeld: `<input type="text" placeholder="Enter your name">` <br><input type="text" placeholder="Enter your name">
 
-- value: Sets the default data entered in the input field. For example, in a form where the user is asked for their dietary requirements, you could set the default value of that field to "None".
-  Example: `<input type="text" name="Dietary requirements" value="None">` <br><input type="text" name="Dietary requirements" value="None">
+- waarde: Hiermee stel je de standaardgegevens in die in het invoerveld worden ingevoerd. In een formulier waarin de gebruiker wordt gevraagd naar zijn/haar dieetwensen, kun je bijvoorbeeld de standaardwaarde van dat veld instellen op 'Geen'.
+  Voorbeeld: `<input type="text" name="Dietary requirements" value="None">` <br><input type="text" name="Dietary requirements" value="None">
 
-- required: Checks the input field is filled out before allowing the form to be submitted.
-  Example: `<input type="text" required>`
+- vereist: Controleert of het invoerveld is ingevuld voordat het formulier kan worden verzonden.
+  Voorbeeld: `<input type="text" required>`
 
-- maxlength: Sets the maximum number of characters allowed in a text or password input.
-  Example: `<input type="text" maxlength="3">` <br><input type="text" maxlength="3">
+- maximale lengte: stelt het maximum aantal tekens in een tekst of wachtwoord invoer.
+  Voorbeeld: `<input type="text" maxlength="3">` <br><input type="text" maxlength="3">
 
-- min and max: Sets the minimum and maximum values for number or date inputs.
-  Example: `<input type="number" min="0" max="100">`
+- min en max: Hiermee stel je de minimum- en maximumwaarden in voor numerieke of datuminvoer.
+  Voorbeeld: `<input type="number" min="0" max="100">`
 
 \--- /collapse ---
