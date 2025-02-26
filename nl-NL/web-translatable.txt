@@ -1,8 +1,8 @@
-meal
+maaltijd
 
-Enter your name
+Voer je naam in
 
-Dietary requirements
+Dieetwensen
 
-None
+Geen
 
