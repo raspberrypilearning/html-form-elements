@@ -27,47 +27,46 @@ Je stelt het type invoer in met `type=`.
 
 ## title: Voorbeelden van invoertypes
 
-- **tekst:** Eén regel tekst.
+- **text:** Eén regel tekst.
 
-  ```
-    <input type="text">
-  ```
+        ```
+          <input type="text">
+        ```
 
 \*_Probeer het_: <br><input type="text">
 
-- **wachtwoord:** Verbergt de ingevoerde tekst.
+- **password:** Verbergt de ingevoerde tekst.
 
-  ```
-    <input type="password">
-  ```
+        ```
+          <input type="password">
+        ```
 
 \*_Probeer het_: <br><input type="password">
 
-- **selectievakje:** Selecteer een of meer opties.
+- **checkbox:** Selecteer een of meer opties.
 
-  ```
-    <input type="checkbox"> <label>Ontbijt</label>
-    <input type="checkbox"> <label>Lunch</label>
-  ```
+        ```
+          <input type="checkbox"> <label>Ontbijt</label>
+          <input type="checkbox"> <label>Lunch</label>
+        ```
 
 **Probeer het**: <br><input type="checkbox"><label>Ontbijt</label> <br><input type="checkbox"><label>Lunch</label>
 
 - **radio:** Selecteer één optie uit een groep.
 
-  ```
-    <input type="radio" name="meal"> <label>Ontbijt</label>
-    <input type="radio" name="meal"> <label>Lunch</label>
-  ```
+        ```
+          <input type="radio" name="meal"> <label>Ontbijt</label>
+          <input type="radio" name="meal"> <label>Lunch</label>
+        ```
 
 **Probeer het**: <br><input type="radio" name="meal"><label>Ontbijt</label> <br><input type="radio" name="meal"><label>Lunch</label> <br>**Tip:** De keuzerondjes moeten hetzelfde `name`-kenmerk hebben, zodat wanneer je een keuzerondje selecteert, alle andere geselecteerde keuzerondjes worden gedeselecteerd.
 
-- **getal:** Numerieke data met pijlen om de waarde te verhogen/verlagen.
+- **number:** Numerieke data met pijlen om de waarde te verhogen/verlagen.
 
-  ```
-    
-  <input type="number">
-    
-  ```
+        ```
+          <input type="number">
+          
+        ```
 
 **Probeer het**: <br><input type="number">
 
@@ -82,18 +81,18 @@ Je kunt attributen toevoegen aan een `<input>` element om de gebruiker te helpen
 ## title: Voorbeelden van invoerattributen
 
 - placeholder: Geeft een hint van wat de gebruiker moet invoeren. Deze wordt vervangen wanneer de gebruiker een waarde invoert.
-  Voorbeeld: `<input type="text" placeholder="Enter your name">` <br><input type="text" placeholder="Enter your name">
+        Voorbeeld: `<input type="text" placeholder="Enter your name">` <br><input type="text" placeholder="Enter your name">
 
-- waarde: Hiermee stel je de standaardgegevens in die in het invoerveld worden ingevoerd. In een formulier waarin de gebruiker wordt gevraagd naar zijn/haar dieetwensen, kun je bijvoorbeeld de standaardwaarde van dat veld instellen op 'Geen'.
-  Voorbeeld: `<input type="text" name="Dietary requirements" value="None">` <br><input type="text" name="Dietary requirements" value="None">
+- value: Hiermee stel je de standaardgegevens in die in het invoerveld worden ingevoerd. In een formulier waarin de gebruiker wordt gevraagd naar zijn/haar dieetwensen, kun je bijvoorbeeld de standaardwaarde van dat veld instellen op 'Geen'.
+        Voorbeeld: `<input type="text" name="Dietary requirements" value="None">` <br><input type="text" name="Dietary requirements" value="None">
 
-- vereist: Controleert of het invoerveld is ingevuld voordat het formulier kan worden verzonden.
-  Voorbeeld: `<input type="text" required>`
+- required: Controleert of het invoerveld is ingevuld voordat het formulier kan worden verzonden.
+        Voorbeeld: `<input type="text" required>`
 
-- maximale lengte: stelt het maximum aantal tekens in een tekst of wachtwoord invoer.
-  Voorbeeld: `<input type="text" maxlength="3">` <br><input type="text" maxlength="3">
+- maxlength: Bepaalt het maximum aantal tekens in een tekst- of wachtwoordinvoer.
+        Voorbeeld: `<input type="text" maxlength="3">` <br><input type="text" maxlength="3">
 
 - min en max: Hiermee stel je de minimum- en maximumwaarden in voor numerieke of datuminvoer.
-  Voorbeeld: `<input type="number" min="0" max="100">`
+        Voorbeeld: `<input type="number" min="0" max="100">`
 
 \--- /collapse ---
