@@ -1,8 +1,8 @@
-meal
+repas
 
-Enter your name
+Saisis ton nom
 
-Dietary requirements
+Besoins alimentaires
 
-None
+Aucun
 
