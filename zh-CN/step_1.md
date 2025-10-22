@@ -78,12 +78,12 @@ title: 输入属性示例
 ---
 
 - 占位符：提供用户应输入内容的提示。 当用户输入值时它会被替换。
-  示例: `<input type="text" placeholder="Enter your name">`
-  <br><input type="text" placeholder="Enter your name">
+  示例: `<input type="text" placeholder="输入你的名字">`
+  <br><input type="text" placeholder="输入你的名字">
 
 - 值：设置输入字段中的默认数据。 例如，在询问用户饮食要求的表格中，你可以将该字段的默认值设置为“无”。
-  例如：`<input type="text" name="Dietary requirements" value="None">`
-  <br><input type="text" name="Dietary requirements" value="None">
+  例如：`<input type="text" name="Dietary requirements" value="空">`
+  <br><input type="text" name="Dietary requirements" value="空">
 
 - 必需：在允许提交表单之前检查输入字段是否已填写。
   例如：`<input type="text" required>`
